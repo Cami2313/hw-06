@@ -1,3 +1,7 @@
+body {
+  margin: 2em;
+}
+
 .container-1 {
   width: 100px;
   height: 100px;
@@ -17,6 +21,8 @@
 .container-3 {
   width: 100px;
   height: 100px;
+  /* primer ejercicio
+  background-color: red;*/
   background-color: lightgreen;
   color: white;
   text-align: center;
@@ -70,5 +76,64 @@
   text-align: center;
 }
 
+/*ejercicio 1
 .parent {
-}  
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+}*/
+
+/*ejercicio 2
+.parent {
+  width: 300px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(5, 100px);
+}
+
+.container-1,
+.container-9 {
+  grid-column: span 3;
+  width: 100%;
+  order: -2;
+}
+
+.container-7 {
+  grid-column: span 3;
+  width: 100%;
+  order: -1;
+}*/
+
+/*ejercicio 3*/
+.parent {
+  width: 300px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(4, 100px);
+}
+
+.container-1 {
+  grid-column: span 5;
+  width: 100%;
+}
+
+.container-2,
+.container-3 {
+  grid-row: span 2;
+  height: 100%;
+}
+
+.container-2,
+.container-4 {
+  grid-column: span 2;
+  width: 100%;
+}
+
+.container-9 {
+  grid-column: span 3;
+  width: 100%;
+}

@@ -1,3 +1,7 @@
+body{
+ margin: 2em;
+}
+
 .container-1 {
   width: 100px;
   height: 100px;
@@ -79,5 +83,38 @@
   order: 1;
 }
 
+/*ejercicio 1
 .parent {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 25px;
+}
+
+.container-1,
+.container-2,
+.container-3 {
+  order: -2;
+}
+
+.container-4,
+.container-5,
+.container-6 {
+  order: -1;
+}
+
+.container-7,
+.container-8,
+.container-9 {
+  order: 0;
+}*/
+
+/*ejercicio 2*/
+.parent {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 25px;
 }
